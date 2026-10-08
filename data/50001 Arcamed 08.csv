@@ -1,0 +1,84 @@
+"Arcamed Real Estate Holdings, LLC (50001)",,,,,
+Trial Balance,,,,,
+Period = Aug 2026,,,,,
+Book = Accrual ; Tree = ysi_tb,,,,,
+,,Forward,,,Ending
+,,Balance,Debit,Credit,Balance
+100106,Cash Operating 2,"441,189.35","5,819.28",0.00,"447,008.63"
+100405,Accounts Receivable Tenant,"70,603.51","18,682.21",0.00,"89,285.72"
+100490,Accounts Receivable Other,-866.73,0.00,0.00,-866.73
+100705,Prepaid Property Insurance,0.00,"21,120.00",0.00,"21,120.00"
+110105,Land,"1,300,000.00",0.00,0.00,"1,300,000.00"
+110110,Building,"2,690,236.00",0.00,0.00,"2,690,236.00"
+110115,Building Appliances,"37,160.00",0.00,0.00,"37,160.00"
+110155,Parking Lot,"56,371.78",0.00,0.00,"56,371.78"
+110160,Tenant Improvements,"188,299.00",0.00,0.00,"188,299.00"
+110165,Renovations,"35,968.00",0.00,0.00,"35,968.00"
+110170,Building Improvements,"464,316.00",0.00,0.00,"464,316.00"
+110310,Accum Depr Building,"-906,747.04",0.00,"8,723.06","-915,470.10"
+110315,Accum Depr Bldg Appliances,"-13,852.65",0.00,119.60,"-13,972.25"
+110355,Accum Depr Parking Lot,"-3,449.93",0.00,313.80,"-3,763.73"
+110360,Accum Depr Tenant Improvements,"-165,101.60",0.00,0.00,"-165,101.60"
+110365,Accum Depr Renovations,"-29,261.76",0.00,304.81,"-29,566.57"
+120205,Leasing Commission,"98,773.43",0.00,0.00,"98,773.43"
+120250,Accum Amort - Lease Commission,"-97,264.84",0.00,"1,017.60","-98,282.44"
+120255,Prepaid Loan Fees,"5,248.75","3,107.95",0.00,"8,356.70"
+120260,Accum Amort - Loan Fees,-208.80,139.16,0.00,-69.64
+200105,Accounts Payable - Trade,"-8,273.97",0.00,"15,447.63","-23,721.60"
+200205,Accrued Liabilities - RE Taxes,"-179,452.44",0.00,"15,082.73","-194,535.17"
+200220,Accrued Interest,"-6,586.31",0.00,0.00,"-6,586.31"
+200250,Accrued Liabilities - Utilities,0.00,0.00,771.88,-771.88
+200255,Accrued Liabilities - Prepaid Rent,"-32,165.69",0.00,0.00,"-32,165.69"
+200295,Accrued Liabilities - Other,"-299,000.00",0.00,0.00,"-299,000.00"
+200305,Deposit - Security,"-19,770.96",0.00,0.00,"-19,770.96"
+204025,Inter Company Accounts Payable - Other Entities,"-73,297.64",0.00,0.00,"-73,297.64"
+210025,Mortgage Payable A - Long-Term,"-1,817,977.00","1,817,977.00",0.00,0.00
+210030,Mortgage Payable B - Long-Term,0.00,0.00,"2,219,405.11","-2,219,405.11"
+210075,Other Note Payable - Long-Term,"-401,196.25","401,196.25",0.00,0.00
+300305,Contributions Distributions - Prior Year - Internal,"-360,597.00",0.00,0.00,"-360,597.00"
+300505,Retained Earnings - Prior Year,"-688,854.91",0.00,0.00,"-688,854.91"
+300555,Retained Earnings - Current Year,"-219,967.73",0.00,0.00,"-219,967.73"
+400007,Rental Revenue - Gross Rent Potential,"-228,122.71",0.00,"32,847.73","-260,970.44"
+401005,CAM Revenue - Common Area,"-119,233.94",0.00,"17,033.42","-136,267.36"
+401006,CAM Revenue - Annual Recovery,"11,051.29",0.00,0.00,"11,051.29"
+401020,CAM Revenue - RE Tax,"-57,551.34",0.00,"8,221.62","-65,772.96"
+401021,CAM Revenue - RE Tax Recovery,"4,034.46",0.00,0.00,"4,034.46"
+406010,TRR - Utilities - Electric,0.00,0.00,0.00,0.00
+406025,TRR - Repair and Maintenance,0.00,0.00,0.00,0.00
+600005,CAM - Association Dues,"5,143.83",0.00,0.00,"5,143.83"
+600110,CAM - Insurance - Umbrella,0.00,253.42,0.00,253.42
+600195,CAM - Insurance - Other,"9,575.56","1,666.58",0.00,"11,242.14"
+600300,CAM - Management Fees,"12,260.79","2,255.04",0.00,"14,515.83"
+600301,CAM - Management Fees - Owners,"9,960.65","3,989.07",0.00,"13,949.72"
+600310,CAM - Software Fees,"1,416.95",54.00,0.00,"1,470.95"
+600500,CAM - Real Estate Taxes,"105,579.11","15,082.73",0.00,"120,661.84"
+600501,CAM - Real Estate Taxes - Prior Year,"-3,233.85",0.00,0.00,"-3,233.85"
+600505,CAM - Real Estate Tax Consulting,300.00,0.00,0.00,300.00
+610055,CAM - R and M - Roof,"1,046.89",709.90,0.00,"1,756.79"
+610200,CAM - R and M - Pest Control,280.00,40.00,0.00,320.00
+610400,CAM - R and M - Fire Protection Monitoring Contract,339.80,0.00,0.00,339.80
+610401,CAM - R and M - Fire Protection Inspections,"5,040.70",0.00,0.00,"5,040.70"
+610403,CAM - R and M - Fire Protection Non Contract Repair,400.00,0.00,0.00,400.00
+610595,CAM - R and M - Other - General Repairs,"4,436.12","1,135.00",0.00,"5,571.12"
+610651,CAM - R and M - Cleaning - Windows,475.00,0.00,0.00,475.00
+620600,CAM - Grounds - Landscaping,"10,340.62","1,115.60",0.00,"11,456.22"
+630500,CAM - Snow Removal - Contract Per Push & Hourly,"13,098.75",0.00,0.00,"13,098.75"
+640005,CAM - Utilities - Electric,"5,294.03",802.35,0.00,"6,096.38"
+640050,CAM - Utilities - Water and Sewer,"4,688.34",636.32,0.00,"5,324.66"
+640995,CAM - Utilities - Other,48.00,0.00,48.00,0.00
+700200,TR - Maintenance Work,0.00,0.00,0.00,0.00
+800015,NC - Admin - Bank Fees,33.50,0.00,0.00,33.50
+800410,NC - Admin - Legal Expense,"1,623.00",0.00,0.00,"1,623.00"
+850590,NC - Grounds - Grounds Expense - Other,0.00,225.00,0.00,225.00
+900025,Amortization - Organizational,562.72,0.00,0.00,562.72
+900035,Amortization - PPD Loan,162.40,"5,109.59",0.00,"5,271.99"
+900050,Amortization - Prepaid Lease Commission,"7,123.20","1,017.60",0.00,"8,140.80"
+900310,Depreciation - Building,"62,311.60","8,723.06",0.00,"71,034.66"
+900315,Depreciation - Appliances,837.20,119.60,0.00,956.80
+900355,Depreciation - Parking Lot,"2,196.60",313.80,0.00,"2,510.40"
+900365,Depreciation - Renovations,"2,133.67",304.81,0.00,"2,438.48"
+900615,Interest - Mortgage,"41,118.58",231.86,0.00,"41,350.44"
+900616,Interest - Mortgage 2,"16,586.91",0.00,0.00,"16,586.91"
+900650,Interest - Other,0.00,"7,509.81",0.00,"7,509.81"
+900900,NC - Admin - Tax - State,"4,369.00",0.00,0.00,"4,369.00"
+,Total,0.00,"2,319,336.99","2,319,336.99",0.00

@@ -1,0 +1,78 @@
+50001 account,50001 description,TB RE account,TB RE description,TB RE row,Amount to use
+100106,Cash Operating 2,1110-0000,Operating Cash 1,4,ending balance
+100405,Accounts Receivable Tenant,1300-0000,Accounts Receivable,6,ending balance
+100490,Accounts Receivable Other,1300-0000,Accounts Receivable,6,ending balance
+100705,Prepaid Property Insurance,1213-0000,Prepaid Insurance,5,ending balance
+110105,Land,1610-0000,Land,10,ending balance
+110110,Building,1700-0000,Building & Improvements,12,ending balance
+110115,Building Appliances,1716-0000,Heating & Cooling System,13,ending balance
+110155,Parking Lot,1700-0000,Parking Lot,11,ending balance
+110160,Tenant Improvements,1730-0000,Tenant Improvements,14,ending balance
+110165,Renovations,1730-0001,Tenant Improvements 2,15,ending balance
+110170,Building Improvements,1700-0000,Building & Improvements,12,ending balance
+110310,Accum Depr Building,1790-0000,Acc Depr Building & Improvemnt,16,ending balance
+110315,Accum Depr Bldg Appliances,1790-0003,Acc Depr - Heating & Cooling Fixtures,19,ending balance
+110355,Accum Depr Parking Lot,1790-0000,Acc Depr Land Improvement,17,ending balance
+110360,Accum Depr Tenant Improvements,1790-0001,Acc Depr TI,18,ending balance
+110365,Accum Depr Renovations,1790-0020,Accumulated Depreciation - TI 2,20,ending balance
+120205,Leasing Commission,1910-0000,Leasing Commissions,21,ending balance
+120250,Accum Amort - Lease Commission,1910-1000,Leasing Commissions - Amortization,22,ending balance
+120255,Prepaid Loan Fees,1500-1000,Other Assets,8,ending balance
+120260,Accum Amort - Loan Fees,1500-2000,Acc Amort - Other Assets,9,ending balance
+200105,Accounts Payable - Trade,2200-0000,Accounts Payable,28,ending balance
+200205,Accrued Liabilities - RE Taxes,2215-0000,Property Taxes Payable,33,ending balance
+200220,Accrued Interest,2205-0000,Accrued Interest,29,ending balance
+200250,Accrued Liabilities - Utilities,2210-0002,Due to Other Owner,32,ending balance
+200255,Accrued Liabilities - Prepaid Rent,2210-0000,Rental Prepayments - Lessee,30,ending balance
+200295,Accrued Liabilities - Other,2210-0002,Due to Other Owner,32,ending balance
+200305,Deposit - Security,2210-0001,Security Deposits - Lessee,31,ending balance
+204025,Inter Company Accounts Payable - Other Entities,2106-0000,Payable to Arcamed LLC,25,ending balance
+210025,Mortgage Payable A - Long-Term,2145-0000,Mortgage Payable - NBOFI,26,ending balance
+210030,Mortgage Payable B - Long-Term,,,,ending balance
+210075,Other Note Payable - Long-Term,2145-0000,Other Note Payable - Long-Term,27,ending balance
+300305,Contributions Distributions - Prior Year - Internal,3200-0000,Investment from Arcamed LLC,35,ending balance
+300505,Retained Earnings - Prior Year,3800-0000,Retained Earnings,36,ending balance
+300555,Retained Earnings - Current Year,3800-0000,Retained Earnings,36,ending balance
+400007,Rental Revenue - Gross Rent Potential,4500-0000,Rental Income,40,debit minus credit
+401005,CAM Revenue - Common Area,4600-0000,Operating Cost (INCL RENT CONCEESION),41,debit minus credit
+401006,CAM Revenue - Annual Recovery,4600-0000,Operating Cost (INCL RENT CONCEESION),41,debit minus credit
+401020,CAM Revenue - RE Tax,4510-0000,Recoverable Charge Income,42,debit minus credit
+401021,CAM Revenue - RE Tax Recovery,4510-0000,Recoverable Charge Income,42,debit minus credit
+406010,TRR - Utilities - Electric,6706-0000,Bill Back - Utilities,90,debit minus credit
+406025,TRR - Repair and Maintenance,,,,debit minus credit
+600005,CAM - Association Dues,6345-0000,Association Dues,74,debit minus credit
+600110,CAM - Insurance - Umbrella,6325-0000,Insurance,73,debit minus credit
+600195,CAM - Insurance - Other,6325-0000,Insurance,73,debit minus credit
+600300,CAM - Management Fees,6607-0000,Property Management Fee,80,debit minus credit
+600301,CAM - Management Fees - Owners,8610-0000,Owners Building Management Fee,104,debit minus credit
+600310,CAM - Software Fees,,,,debit minus credit
+600500,CAM - Real Estate Taxes,6350-0000,Property Tax,75,debit minus credit
+600501,CAM - Real Estate Taxes - Prior Year,,,,debit minus credit
+600505,CAM - Real Estate Tax Consulting,No account code,CAM - Real Estate Tax Consulting,76,debit minus credit
+610055,CAM - R and M - Roof,6132-0000,Roof Repair,46,debit minus credit
+610200,CAM - R and M - Pest Control,6140-0000,Extermination,51,debit minus credit
+610400,CAM - R and M - Fire Protection Monitoring Contract,6138-0000,Fire/Life/Safety,50,debit minus credit
+610401,CAM - R and M - Fire Protection Inspections,,,,debit minus credit
+610403,CAM - R and M - Fire Protection Non Contract Repair,,,,debit minus credit
+610595,CAM - R and M - Other - General Repairs,6159-0000,R&M - Other,61,debit minus credit
+610651,CAM - R and M - Cleaning - Windows,,,,debit minus credit
+620600,CAM - Grounds - Landscaping,,,,debit minus credit
+630500,CAM - Snow Removal - Contract Per Push & Hourly,6189-0000,Snow Removal,70,debit minus credit
+640005,CAM - Utilities - Electric,6172-0000,Electricity,63,debit minus credit
+640050,CAM - Utilities - Water and Sewer,6176-0000,Water & Sewer,66,debit minus credit
+640995,CAM - Utilities - Other,6172-0000,Electricity,63,debit minus credit
+700200,TR - Maintenance Work,,,,debit minus credit
+800015,NC - Admin - Bank Fees,6605-0000,Bank Charges Expense,79,debit minus credit
+800410,NC - Admin - Legal Expense,6703-0006,NPT - Legal & Accounting Fees,88,debit minus credit
+850590,NC - Grounds - Grounds Expense - Other,,,,debit minus credit
+900025,Amortization - Organizational,8150-0000,Amortization Exp-Organizational,96,debit minus credit
+900035,Amortization - PPD Loan,8150-0001,Amortization Exp-Other Assets,97,debit minus credit
+900050,Amortization - Prepaid Lease Commission,6703-0000,NPT - Leasing Commissions,85,debit minus credit
+900310,Depreciation - Building,8180-0000,Depreciation Expense,98,debit minus credit
+900315,Depreciation - Appliances,8180-0003,Depreciation Expense - Heating & Cooling Fixtures,102,debit minus credit
+900355,Depreciation - Parking Lot,8180-0000,Depreciation Expense,99,debit minus credit
+900365,Depreciation - Renovations,8180-0002,Depreciation Expense T2,101,debit minus credit
+900615,Interest - Mortgage,8510-0000,Interest Expense,103,debit minus credit
+900616,Interest - Mortgage 2,,,,debit minus credit
+900650,Interest - Other,8510-0000,Interest Expense,103,debit minus credit
+900900,NC - Admin - Tax - State,,,,debit minus credit
