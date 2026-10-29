@@ -1,4 +1,4 @@
-50001 account,50001 description,TB RE account,TB RE description,TB RE row,Amount to use
+﻿50001 account,50001 description,TB RE account,TB RE description,TB RE row,Amount to use
 100106,Cash Operating 2,1110-0000,Operating Cash 1,4,ending balance
 100405,Accounts Receivable Tenant,1300-0000,Accounts Receivable,6,ending balance
 100490,Accounts Receivable Other,1300-0000,Accounts Receivable,6,ending balance
@@ -38,7 +38,7 @@
 401006,CAM Revenue - Annual Recovery,4600-0000,Operating Cost (INCL RENT CONCEESION),41,debit minus credit
 401020,CAM Revenue - RE Tax,4510-0000,Recoverable Charge Income,42,debit minus credit
 401021,CAM Revenue - RE Tax Recovery,4510-0000,Recoverable Charge Income,42,debit minus credit
-406010,TRR - Utilities - Electric,6706-0000,Bill Back - Utilities,90,debit minus credit
+406010,TRR - Utilities - Electric,,,,debit minus credit
 406025,TRR - Repair and Maintenance,,,,debit minus credit
 600005,CAM - Association Dues,6345-0000,Association Dues,74,debit minus credit
 600110,CAM - Insurance - Umbrella,6325-0000,Insurance,73,debit minus credit
