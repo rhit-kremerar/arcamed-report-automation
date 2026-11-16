@@ -155,3 +155,70 @@ Run checks:
 ```powershell
 python -m unittest discover -s tests -v
 ```
+
+
+
+
+;; Consider this language of integer lists:
+;;
+;; list-exp ::= <integer>
+;;            | (list list-exp ...)
+;;            | (car list-exp)
+;;            | (cdr list-exp)
+;;
+;; A (list ...) expression creates a list of its argument values, as in
+;; Scheme.  car returns the first element.  cdr returns a list with the
+;; first element removed.  We are only interested in the *types* of
+;; these expressions, not their values.
+;;
+;; There are two kinds of types:
+;;
+;;   int          - an integer
+;;   (list T L)   - a list whose elements all have type T and whose
+;;                  length is L.  T is a type and L is an integer
+;;                  greater than or equal to 1.
+;;
+;; In other words, every list must be homogeneous (all elements have
+;; the same type) and non-empty.  A list may contain lists, so types
+;; can be nested.
+;;
+;; Examples:
+;;
+;; 7 has type 'int
+;; -3 has type 'int
+;; (list 1) has type '(list int 1)
+;; (list 1 2 3) has type '(list int 3)
+;; (list (list 1 2) (list 3 4)) has type '(list (list int 2) 2)
+;; (car (list 1 2)) has type 'int
+;; (cdr (list 1 2)) has type '(list int 1)
+;; (car (list (list 1 2) (list 3 4))) has type '(list int 2)
+;; (cdr (list (list 1 2) (list 3 4))) has type '(list (list int 2) 1)
+;;
+;; If an expression contains a type error, raise the following symbol:
+;;
+;; 'empty-list  - a (list ...) expression with no elements
+;; 'mixed-list  - a (list ...) expression whose elements do not all
+;;                have the same type
+;; 'bad-car     - car applied to a non-list type
+;; 'bad-cdr     - cdr applied to a non-list type, or to a list of
+;;                length 1 (there would be no elements left)
+;;
+;; For example:
+;;
+;; (list) should raise 'empty-list
+;; (list 1 (list 2)) should raise 'mixed-list
+;; (list (list 1 2) (list 3 4 5)) should raise 'mixed-list
+;; (car 1) should raise 'bad-car
+;; (cdr 1) should raise 'bad-cdr
+;; (cdr (list 1)) should raise 'bad-cdr
+;;
+;; Type errors inside a subexpression are found in the usual recursive
+;; way.  For example, (car (list)) raises 'empty-list (from the inner
+;; list), not 'bad-car.
+;;
+;; Write list-type that, given a list-exp as quoted data, returns its
+;; type or raises the appropriate symbol.  You may assume all
+;; expressions are syntactically well-formed.
+
+(define (list-type exp)
+  'nyi)
